@@ -23,6 +23,8 @@ git branch -d coins - delete branch
 git log -n 1 - show only 1 commit
 git remote -v - list of remote repos
 git remote add origin "link to github repo location on your github"
+git pull origin master - pull the master branch from github to the working directory
+
 
 
 
