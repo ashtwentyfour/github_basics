@@ -24,8 +24,10 @@ git log -n 1 - show only 1 commit
 git remote -v - list of remote repos
 git remote add origin "link to github repo location on your github"
 git pull origin master - pull the master branch from github to the working directory
-
-
+git push origin master (local -> github)
+git fetch origin - update all the local copies of every branch for the origin remote
+git log origin/master
+git merge origin master 
 
 
 
