@@ -28,7 +28,7 @@ git push origin master (local -> github)
 git fetch origin - update all the local copies of every branch for the origin remote
 git log origin/master
 git merge origin master 
-
+rm -rf .git (removed git from a directory)
 
 
 
